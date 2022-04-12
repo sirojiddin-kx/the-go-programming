@@ -4,10 +4,13 @@ import (
 	"fmt"
 )
 
-func appendInt(x []int, y int) []int {
+func main() {
 
-}
+	var runes []rune
 
-func copy(empt, x []int) []int {
-	
+	for _, r := range "Hello World" {
+		runes = append(runes, r)
+	}
+
+	fmt.Printf("%q\n", runes)
 }
