@@ -14,7 +14,7 @@ func main() {
 		"Alice" : 22,
 		"Charllie" : 30,
 	}
-
+	fmt.Println(ages2)
 	for name, age := range ages {
 		fmt.Printf("%s\t%d\n", name, age)
 	}
